@@ -1,0 +1,38 @@
+.card-grid {
+    height: 65%;
+    display: grid;
+    overflow-y: auto;
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    padding: 2rem;
+	color: rgb(243, 172, 21);
+	font-size: 2rem;
+	border: solid;
+    border: 1rem solid #4d3f25;
+     /* Darker shadow on the bottom and right */
+    border-bottom: 1rem solid #2c2010;
+    border-right: 1rem solid #4d3c27;
+
+    /* Highlight on the top and left */
+    border-top: 1rem solid #68533a;
+    border-left: 1rem solid #513b21;
+    color:antiquewhite;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #6c5649;
+}
+::-webkit-scrollbar
+{
+	width: 20px;
+	background-color: #ee9212;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #633c14;
+}

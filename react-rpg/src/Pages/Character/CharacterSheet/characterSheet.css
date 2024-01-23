@@ -1,0 +1,7 @@
+.character-sheet {
+    display: flex;
+    flex-direction:column;
+    padding: 1rem;
+    color: rgb(243, 172, 21);
+    
+}

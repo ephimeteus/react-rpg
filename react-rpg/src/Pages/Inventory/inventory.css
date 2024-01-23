@@ -1,0 +1,33 @@
+
+.inventory {
+    display: block;
+    font-size: 2rem;
+    width: 30rem;
+    border: solid;
+    border: solid;
+    border: 1rem solid #4d3f25;
+     /* Darker shadow on the bottom and right */
+    border-bottom: 1rem solid #2c2010;
+    border-right: 1rem solid #32281d;
+
+    /* Highlight on the top and left */
+    border-top: 1rem solid #68533a;
+    border-left: 1rem solid #3f3223;
+    color:antiquewhite;
+    
+}
+
+.inventory-header{
+    display: flex;
+    height: 14rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.inventory button {
+    
+    height: 3rem;
+    width: 6rem;
+    background-color: rgb(224, 127, 29);
+    border-radius: 10px;
+}
